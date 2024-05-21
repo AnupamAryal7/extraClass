@@ -1,0 +1,17 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  padding:0 10px;
+  font-size: 20px;
+
+}
+.navbar{
+  display: flex;
+  background: #000;
+  float: right;
+}
+#nav{
+  color: #000;
+  text-decoration: none;
+  float: right;
+}
