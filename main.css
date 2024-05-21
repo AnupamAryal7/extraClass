@@ -1,12 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jaini+Purva&display=swap');
+
+@font-face{
+  font-family: Anupam;
+  src: url(./Fonts/Kanit-Regular.ttf);
+}
+
+/* This is comment */
+
 *
 {
   padding: 0;
   margin: 0;
 }
-body
-{
-  background: green;
-}
+
 .htwo{
   color: pink;
 }
@@ -17,4 +26,43 @@ body
   background-color: aqua;
   color: tomato;
   color: rgba(255, 0, 0, 0.9);
+}
+h1{
+  background:rgba(255, 255, 255,0.9);
+  
+}
+.name{
+  font-family: "jacquard 12";
+  font-size: 20px;
+  font-style: italic;
+  padding: 50px;
+  border: 1px double red;
+  border-radius: 5px;
+  border-width: 5px;
+  width: auto;
+  width: 250px;
+  height: 250px;
+  background: black;
+  color: white;
+  overflow: scroll;
+}
+#second{
+  font-family: "Anupam";
+  font-size: 20px;
+  text-shadow: 1px 15px 6px tomato;
+  margin: auto;
+  padding: 50px 100px 50px 50px;
+
+}
+.photos{
+  border-radius: 50%;
+  border-right: 2px solid red;
+  height: 250px;
+  width: 250px;
+  border-left: 5px dotted blue;
+
+}
+.imgho{
+  height: 150px;
+  float: left;
 }
