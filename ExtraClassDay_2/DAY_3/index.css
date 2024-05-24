@@ -1,0 +1,39 @@
+*{
+  color: green;
+}
+ body{
+  color: red;
+} 
+ .h1{
+  color: blue;
+} 
+ #h1{
+  color: rgb(12, 3, 3);
+} 
+.div1{
+
+  background-color: green;
+}
+.div1 > .h1{
+  color: pink;
+}
+.parent ~ h1{
+  background-color: tomato;
+}
+.parent + h1{
+  background-color: rgb(68, 25, 17);
+}
+
+.maindiv{
+  background: url("https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  width: 100rem;
+  width: 100rem;
+}
+.main{
+  background-image: url("");
+  background-repeat: repeat-x;
+}
+*{
+  background: url("https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" no-repeat center fixed contain);
+}
